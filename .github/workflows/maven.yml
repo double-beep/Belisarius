@@ -32,4 +32,4 @@ jobs:
           #    - name: Install swagger jar
           #run: mvn install:install-file -Dfile="./lib/swagger-java-client-1.0.0.jar" -DgroupId="io.swagger" -DartifactId="swagger-java-client" -Dversion="1.0.0" -Dpackaging="jar" -DgeneratePom="true"
     - name: Build project
-      run: mvn -B clean install
+      run: mvn validate && mvn -B clean install

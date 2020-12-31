@@ -170,7 +170,7 @@
                         <goals>
                             <goal>install-file</goal>
                         </goals>
-                        <phase>validate</phase>
+                        <phase>install</phase>
                     </execution>
                 </executions>
             </plugin>
